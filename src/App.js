@@ -1,24 +1,21 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./components/Header";
-import FoodOption from "./components/FoodOption";
-import GroceryOption from "./components/GroceryOption";
-import DineOption from "./components/DineOption";
-import Banner from "./components/Banner";
-import FoodDelivery from "./components/FoodDelivery";
-import GroceryDelivery from "./components/GroceryDelivery.js";
+import Home from "./components/Home.js";
+import { BrowserRouter, Route, Routes } from "react-router";
+import Restaurant from "./components/Restaurant.js";
+
 
 function App(){
     
     return (
        <>
-       <Header></Header>
-         <FoodOption></FoodOption>
-                <GroceryOption></GroceryOption>
-                   <DineOption></DineOption>
-                     <Banner></Banner>
-                        <FoodDelivery></FoodDelivery>
-                           <GroceryDelivery></GroceryDelivery> 
+       <BrowserRouter>
+         <Routes>
+           <Route path="/" element={<Home />} />
+           <Route path="/restaurant" element={<Restaurant />} />
+
+         </Routes>
+       </BrowserRouter>
        </>
     )
 }
