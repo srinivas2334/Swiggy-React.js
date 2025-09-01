@@ -1,8 +1,8 @@
-import FoodOption from "./FoodOption";
-import GroceryOption from "./GroceryOption";
-import DineOption from "./DineOption";
-import Banner from "./Banner";
-import FoodDelivery from "./FoodDelivery";
+import FoodOption from "./FoodOption.js";
+import GroceryOption from "./GroceryOption.js";
+import DineOption from "./DineOption.js";
+import Banner from "./Banner.js";
+import FoodDelivery from "./FoodDelivery.js";
 import GroceryDelivery from "./GroceryDelivery.js";
 import Header from "./Header.js";
 

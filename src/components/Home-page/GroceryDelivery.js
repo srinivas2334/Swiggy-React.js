@@ -1,9 +1,9 @@
-import {Deliverycard} from "../utils/Deliverycard.js";
+import {Deliverycard} from "../../utils/Deliverycard.js";
 
- const banner = Deliverycard[0].banners[0];  
+ const banner = Deliverycard[0].banners[1];  
  const categories = banner.categories;
 
-export default function FoodDelivery(){
+export default function GroceryDelivery(){
     
   return (
     <div className="m-w-[60%] ml-70 mr-100 mt-25">
