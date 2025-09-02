@@ -8,7 +8,7 @@ import SearchFood from "./components/Food-Delivery/SearchFood.js";
 import SecondaryHome from "./components/Food-Delivery/SecondaryHome.js";
 import { store } from "./Stored/stores";
 import { Provider } from "react-redux";
-import Checkout from "./components/Food-Delivery/Checkout.js";
+import Checkout from "./components/Food-Delivery/cart/Checkout.js";
 
 function App() {
   return (
