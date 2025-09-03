@@ -9,6 +9,7 @@ import SecondaryHome from "./components/Food-Delivery/SecondaryHome.js";
 import { store } from "./Stored/stores";
 import { Provider } from "react-redux";
 import Checkout from "./components/Food-Delivery/cart/Checkout.js";
+import InstaMart from "./components/InstaMart/Home.js";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
                 element={<SearchFood></SearchFood>}
               ></Route>
             </Route>
+            <Route
+              path="/instamart"
+              element={<InstaMart></InstaMart>}
+            ></Route>
             <Route path="/Checkout" element={<Checkout></Checkout>}></Route>
           </Routes>
         </BrowserRouter>

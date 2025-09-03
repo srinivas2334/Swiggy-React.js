@@ -5,6 +5,7 @@ import Banner from "./Banner.js";
 import FoodDelivery from "./FoodDelivery.js";
 import GroceryDelivery from "./GroceryDelivery.js";
 import Header from "./Header.js";
+import Foot from "./mainfooter.js"
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
                     <Banner></Banner>
                         <FoodDelivery></FoodDelivery>
                         <GroceryDelivery></GroceryDelivery> 
+                        <Foot></Foot>
         </>
     );
 }
